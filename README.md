@@ -35,5 +35,5 @@ python manage.py migrate
 
 **Run the project**
 ```bash
-python manage.py runservers
+python manage.py runserver
 ```
