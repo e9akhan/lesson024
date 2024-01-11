@@ -1,24 +1,39 @@
-# Lesson024 :- Accounting System Web application using Django
+### Steps to run the project.
 
-### Write code to develop an Accounting System application using Django,Html,CSS.
+**Create a virtual environment**
+```bash
+python3 -m venv venv
+```
 
-**1. Home page**
-Create a Home page that gives user the option to login or sign-up
+**Initialize virtual environment**
 
-**2. User Registration page**
-Create a form to save user information.
+For linux
+```
+source venv/bin/activate
+```
 
-**3. User Login page**
-Create a form for user to log-in to his/her account.
+For Windows
+```powershell
+venv\Scripts\Activate
+```
 
-**4. User account page**
-User account page where user get the options to add a transaction through a form or generate a report of previous transaction
+**Download the requirements**
+```bash
+pip install -r requirements.txt
+```
 
-**5. Generate Report page**
-Create a html page where user gets all the details of the previous transaction.
+**Move inside the folder**
+```bash
+cd accounting_system
+```
 
+**Make migrations**
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
 
-
---------------
-Note :-
-`Write steps to run your project in the readme.md file`
+**Run the project**
+```bash
+python manage.py runservers
+```

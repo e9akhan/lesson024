@@ -1,3 +1,11 @@
 #para1{
     margin: auto;
 }
+
+#transaction-details{
+    margin-top: 3px;
+    background-color: white;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 3px;
+}
