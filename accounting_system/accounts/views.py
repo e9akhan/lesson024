@@ -59,9 +59,7 @@ def previous_balance(request):
     """
     balance = list(TransactionModel.objects.filter(user=request.user))
 
-    if balance:
-        return balance[-1].balance
-    return 0
+    return balance[-1].balance if balance else 0
 
 
 def registration(request):
