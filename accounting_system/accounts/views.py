@@ -11,7 +11,6 @@ from django.contrib.auth import authenticate, login, logout
 from accounts.forms import TransactionForm, RegistrationForm, LoginForm
 from accounts.models import TransactionModel
 
-
 def homepage(request):
     """
     Returns homepage of website.
