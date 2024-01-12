@@ -17,6 +17,11 @@ For Windows
 venv\Scripts\Activate
 ```
 
+**Move inside the folder**
+```bash
+cd lesson024
+```
+
 **Download the requirements**
 ```bash
 pip install -r requirements.txt
