@@ -9,9 +9,10 @@
             {{message}}
         {% endfor %}
     {% endif %}
+    
     <form action="" method="post">
         {% csrf_token %}
-        {{form}}<br>
+        {{form.as_p}}<br>
         <button type="submit" class="btn btn-success m-2">Submit</button>
     </form>
 </div>
